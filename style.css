@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(10, 25, 47);
+  opacity: 1;
+  transition: 6s opacity;
+  overflow: visible;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+h1 {
+  color: white;
+  font-style: oblique;
+  font-size: 35px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: #00ccff;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+html {
+    background-color: rgb(10, 25, 47);
+}
+
+.intro {
+  text-align: left;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #00ccff;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.projects {
+  color: white;
+  font-style: oblique;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+}
+
+.box {
+  background-color: rgb(0, 0, 0);
+  height: 300px;
+  border: 15px;
+  padding: 25px;
+  margin: 20px;
+  display: inline-block;
+}
+.center-div
+{
+     width: 300px;
+     text-align: center;
+}
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+.boxGitHub {
+  padding-left: 150px;
+}
+
+
+.b {
+  background-color: rgb(0, 0, 0);
+  height: 300px;
+  border: 15px;
+  padding: 25px;
+  margin: 20px;
+  display: block;
+}
+
+.left-div {
+  padding-right: 70px;
+}
